@@ -1,0 +1,2 @@
+#!/bin/bash
+exec diff -y 2014-reference-output <( seq 2014 | ./run ) | fgrep '|'
