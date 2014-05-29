@@ -1,0 +1,3 @@
+#!/bin/bash
+unset JAVA_TOOL_OPTIONS
+exec java -jar target/roman-exercise-1.0-SNAPSHOT-jar-with-dependencies.jar
