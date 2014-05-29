@@ -8,7 +8,7 @@ public class RomanNumeralConverterTest {
 
     @Test
     public void testConvert() {
-        assertEquals("i", new RomanNumeralConverter().convert(1));
+        assertEquals("I", new RomanNumeralConverter().convert(1));
     }
 
 }
